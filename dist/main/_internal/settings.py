@@ -1,0 +1,51 @@
+import pygame
+
+# Размеры экрана
+SCREEN_WIDTH = 900
+SCREEN_HEIGHT = 550
+FPS = 60
+
+# Цвета
+COLOR_GRASS = (15, 35, 15)
+COLOR_PATH = (45, 35, 25)
+COLOR_LANE_SOFT = (55, 45, 35)
+COLOR_WHITE = (220, 220, 220)
+
+# Цвета объектов
+COLOR_TREE_TRUNK = (40, 25, 15)
+COLOR_TREE_LEAVES = (10, 50, 10)
+COLOR_STONE = (80, 80, 85)
+COLOR_STUMP = (60, 45, 30)
+
+# Параметры трассы
+LANE_COUNT = 5
+ROAD_WIDTH = 550
+SIDE_WIDTH = (SCREEN_WIDTH - ROAD_WIDTH) // 2
+LANE_WIDTH = ROAD_WIDTH // LANE_COUNT
+
+# Игровые настройки
+INITIAL_SPEED = 5
+MAX_SPEED = 15
+SPEED_INCREMENT = 0.002
+
+COLOR_FOX = (255, 140, 0) # Оранжевый
+
+# Параметры игрока
+PLAYER_SIZE = 40
+START_LANE = 2
+
+# Параметры энергии
+MAX_ENERGY = 100
+ENERGY_DRAIN_RATE = 0.05
+
+# Цвета для игровых объектов
+COLOR_LOG = (100, 60, 30)
+COLOR_BUSH = (20, 80, 20)
+COLOR_FIREFLY = (255, 255, 100)
+
+OBSTACLE_SPAWN_RATE = 800
+FIREFLY_SPAWN_RATE = 1500
+
+# Штрафы и бонусы
+ENERGY_PENALTY = 15
+ENERGY_RECOVERY = 10
